@@ -188,4 +188,5 @@ def convert_shape_based_on_fruit (x, y, w, h, fruit_name):
 
 for i in range(len(img_list)):
     rectangle_box(img_list[i])
+    # Watershed algorithm does not work well
     #watershed(img_name[i])
